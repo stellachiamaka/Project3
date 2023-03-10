@@ -1,0 +1,148 @@
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size:  15px;
+
+}
+.container{
+    display: grid;
+    place-items: center;
+    min-height: 80vh;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper .column1{
+    background-color:  hsl(31, 77%, 52%);
+    width: 270px;
+    height: 400px;
+    border-bottom-left-radius: 2%;
+    border-top-left-radius: 2%;
+}
+.wrapper .column2{
+    background-color:  hsl(184, 100%, 22%);
+    width: 270px;
+    height: 400px;
+}
+.wrapper .column3{
+    background-color: hsl(179, 100%, 13%);
+    width: 270px;
+    height: 400px;
+    border-bottom-right-radius: 2%;
+    border-top-right-radius: 2%;
+}
+.wrapper img{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 55px;
+    height: 35px;
+}
+.wrapper h2{
+    margin-top: 25px;
+    margin-left: 30px;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-stretch: extra-condensed;
+    font-size: 30px;
+
+}
+.wrapper p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.wrapper .column1 button{
+    border-radius: 50px 50px 50px 50px;
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    margin-top: 35px;
+    border-color: none;
+    border-style: none;
+    font-family: 'Big Shoulders Display', cursive;
+
+
+}
+.wrapper .column1 a{
+    text-decoration: none;
+    color: hsl(31, 77%, 52%);
+}
+.wrapper .column1 button:hover{
+    background-color:  hsl(31, 77%, 52%);
+    border: 2px solid white;
+}
+.wrapper .column1 a:hover{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.wrapper .column2 button{
+    border-radius: 50px 50px 50px 50px;
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    margin-top: 35px;
+    border-color: none;
+    border-style: none;
+    font-family: 'Big Shoulders Display', cursive;
+
+
+}
+.wrapper .column2 a{
+    text-decoration: none;
+    color: hsl(184, 100%, 22%);
+}
+.wrapper .column2 button:hover{
+    background-color:  hsl(184, 100%, 22%);
+    border: 2px solid white;
+}
+.wrapper .column2 a:hover{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.wrapper .column3 button{
+    border-radius: 50px 50px 50px 50px;
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    margin-top: 35px;
+    border-color: none;
+    border-style: none;
+    font-family: 'Big Shoulders Display', cursive;
+
+
+}
+.wrapper .column3 a{
+    text-decoration: none;
+    color: hsl(179, 100%, 13%);
+}
+.wrapper .column3 button:hover{
+    background-color:  hsl(179, 100%, 13%);
+    border: 2px solid white;
+}
+.wrapper .column3 a:hover{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.challenge { 
+    font-size: 18px; text-align: center;
+    margin-top: 12px; 
+}
+    .challenge a { 
+        color: hsl(228, 45%, 44%);
+     }
+@media screen and (max-width:768px) {
+    .wrapper {
+        flex-direction: column;
+    }
+}
